@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/ec7a2b3069.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/encriptacion.js"></script>
+ </head>
+ <body>
+   <!-- caja contenedora, padre -->
+   <div class="container">
+     <!-- logo alura -->
+   <div class="box-1">
+      <img class="logo-img" src="/assets/Vector.svg" alt="logo alura">
+        <!-- titulo -->
+      <h1 class="title">encriptar</h1>
+
+       <!-- caja de iconos -->
+     <div class="icons">
+     <a id="iconos" href="#" ><i class="fa-brands fa-twitter"> </i></a>
+     <a id="iconos" href="#"><i class="fa-brands fa-facebook-f"> </i></a>
+     <a id="iconos" href="#"><i class="fa-brands fa-github"> </i></a>
+     <a id="iconos" href="#"><i class="fa-brands fa-linkedin-in"> </i></a>
+     <a id="iconos" href="#"><i class="fa-brands fa-telegram"> </i></a>
+    </div>
+
+  </div>
+
+    <!-- caja izquierda,texto -->
+  <div class="box-2">
+    <input id="id1" class="input" type="text" placeholder="escriba su texto aqui">
+  </div>
+
+
+     <!-- caja izquierda,botones -->
+  <div class="box-3">
+    <p class="parrafo">solo letras minusculas y sin acentos</p>
+    <button onclick="encriptar()"  type="button" id="btn1">encriptar</button>
+    <button onclick="desencriptar()" type="button" id="btn2">desencriptar</button>
+  </div>
+
+  
+    <!-- caja derecha -->
+  <div class="box-4">
+      
+     <img   src="/assets/Muñeco.svg" alt="muneco" id="nino">
+     <h1 id="text1">ningun mensaje fue encontrado</h1>
+     <textarea name="name" id="text2" cols="30" rows="10">ingrese el texto que quiera encriptar o desencriptar</textarea>
+     <button  id="copy" type="button" name="button" onclick="copiar()" >copiar</button>
+    </div>
+
+     
+
+    </div>
+
+
+ </body>
+ </html>
