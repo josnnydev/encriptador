@@ -5,13 +5,13 @@
 }
 
 body{
-  background-color: antiquewhite;
+  background-color: rgb(230, 203, 169);
   margin: 0;
   padding: 0;
 }
 
 .container{
-  background-color: brown;
+  background-color: rgb(241, 236, 236);
   margin: auto;
   width: 960px;
   height: 650px;
@@ -21,87 +21,94 @@ body{
 .box-1{
   width: 100%;
   float: left;
-  background-color: blue;
+  background-color: rgb(216, 216, 226);
   padding: 0;
   border-radius: 20px;
 }
 
-.logo-img{
-   float: inherit;
-   margin-top: 2%;
+.box-2{
+  width: 70%;
+  height:68%;
+  float: left;
+  background-color: rgb(231, 238, 238);
+  border-radius: 15px;
+  border: 3px solid royalblue;
+  }
+
+  .box-3{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+     
+  }
+
+  .box-4{
+    float: right;
+    width: 30%;
+    height:    86%;
+    margin-top: -46%;
+    padding-bottom: -20px;
+    border-radius: 15px;
+     
+  
+  }
+
+
+
+
+
+
+ .icons{
+   float: right;
+   background-color: rgb(203, 209, 231);
+   text-align: right;
+   margin: 30px;
+   margin-left: 700px;
+   margin-top: -50px;
+   margin-bottom:  
+ }
+
+ #iconos{
+  color: rgb(51, 118, 177);  
+  margin: 9px;
 }
+
+
+ .logo-img{
+  float: inherit;
+  margin-top: 2%;
+}
+
 
 .title{
   margin-top: 2%;
   margin-left: 20%;
-  color: aliceblue;
+  color: rgb(11, 13, 14);
 }
 
- .icons{
-   float: right;
-   background-color: rgb(212, 217, 238);
-   display: block;
-   text-align: right;
-   margin: 20px;
-   margin-left: 700px;
-   margin-top: -50px;
-   
-    
-      
- }
+
 
  .parrafo{
    display: block;
    margin-left: 50px;
  }
 
- #iconos{
-   margin: 9px;
- }
+
  
-.box-2{
-  width: 70%;
-  height:68%;
-  float: left;
-  background-color: aqua;
-  border-radius: 15px;
-  
-}
+
 
 .input{
   outline: none;
   border: none;
-  background-color: aqua;
-  color: red;
+  background-color: rgb(226, 240, 240);
+   
   text-align: center;
   width: 80%;
   height:auto;
   margin-top: 10% ;
   margin-left: 20%;
   font-size: 25px;
-
-}
-
-.box-3{
-  float: left;
-  background-color: rgb(80, 196, 35);
-  width: 70%;
-  height: auto;
-  border-radius: 15px;
-   
-  
- 
-}
-
-.box-4{
-  float: right;
-  background-color: blueviolet;
-  width: 30%;
-  height:    86%;
-  margin-top: -46%;
-  padding-bottom: -20px;
-  border-radius: 15px;
-   
 
 }
 
@@ -123,7 +130,6 @@ body{
   height: 90px;
   outline: none;
   border: none;
-  background-color: rgb(170, 122, 214);
   margin-top: 10%;
   margin-left: 15px;
   text-align: center;
@@ -159,7 +165,26 @@ body{
   margin-right: 100px;
   border-radius: 45px;
   display: none;
+  color: #18191a;
+  background-color: rgb(19, 224, 224);
   
+}
+
+#btn1:hover {
+  background-color: rgb(14, 23, 63);
+  cursor: pointer;
+  
+
+}
+
+#btn2:hover{
+  background-color: rgb(58, 87, 150);
+  cursor: pointer;
+}
+
+#copy:hover{
+  background-color: rgb(14, 102, 102);
+
 }
 
 
