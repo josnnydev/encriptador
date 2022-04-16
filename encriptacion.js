@@ -1,10 +1,4 @@
-/*
-a - ai
-e - enter 
-i - imes
-o - ober 
-u - ufat 
-*/
+ 
  
  function encriptar(){ 
      var texto = document.getElementById("id1").value.toLowerCase();
