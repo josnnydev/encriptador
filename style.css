@@ -72,6 +72,8 @@ body{
  #iconos{
   color: rgb(51, 118, 177);  
   margin: 9px;
+  text-decoration: none;
+   
 }
 
 
@@ -101,8 +103,7 @@ body{
 .input{
   outline: none;
   border: none;
-  background-color: rgb(226, 240, 240);
-   
+  background-color: rgb(226, 240, 240); 
   text-align: center;
   width: 80%;
   height:auto;
@@ -110,7 +111,7 @@ body{
   margin-left: 20%;
   font-size: 25px;
 
-}
+};
 
 #nino{
   margin-top: 20%;
@@ -118,7 +119,7 @@ body{
   height: auto;
   margin-left: 1%;
    
-}
+};
 
 #text1{
   margin-left: 5%;
