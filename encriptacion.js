@@ -43,7 +43,7 @@ function copiar(){
  var contenido = document.querySelector("#text2");
  contenido.select();
  document.execCommand("copy");
- alert("se copio");
+ alert("texto copiado!");
 
 }
 
