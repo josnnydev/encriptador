@@ -76,5 +76,15 @@
      font-size: 20px;
      height: 180px;
 }
+
+#copy{
+    position: relative;
+    top: 150px;
+    left: 88px;
+    width: 110px;
+    height: 80px;
+    font-size: 30px;
+
+}
      
  }
