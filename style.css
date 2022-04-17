@@ -82,6 +82,17 @@ body{
   margin-top: 2%;
 }
 
+.signo{
+  position: relative;
+  top: 18px;
+  display: block;
+  width: 20px;
+  margin-left: 20px;
+  padding-top: 2px;
+  margin-top: 3px;
+
+   }
+
 
 .title{
   margin-top: 2%;
@@ -92,8 +103,11 @@ body{
 
 
  .parrafo{
+    
    display: block;
    margin-left: 50px;
+   margin-bottom: 10px;
+   
  }
 
 
@@ -123,13 +137,15 @@ body{
    
    
    
-};
+}
 
 #text1{
   margin-left: 5%;
   margin-left: 10%;
 
 }
+
+ 
 
 #text2{
   height: 90px;
