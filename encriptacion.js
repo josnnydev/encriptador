@@ -1,10 +1,9 @@
     var nombre = prompt("porfavor escriba su nombre");
-    var anhoActual = 2022
-   parseInt(prompt("ahora escribe tu edad"));
+    var edad = parseInt(prompt("ahora escribe tu edad"));
 
-    var edadinicio = anhoActual
-    var anhoFinal = (edadinicio-edad);
-    prompt("Hola "+ nombre + " veo que naciste en el " + anhoFinal + " eres muy joven, " + " mi nombre es Josnny Pineyro, que Dios te bendiga mucho!! " );
+    var edadinicio = 2022
+    var anhoUser = (edadinicio-edad);
+    prompt("Hola "+ nombre + " veo que naciste en el " + anhoUser + " eres muy joven, " + " mi nombre es Josnny Pineyro, que Dios te bendiga mucho!! " );
  
  function encriptar(){ 
      var texto = document.getElementById("id1").value.toLowerCase();
