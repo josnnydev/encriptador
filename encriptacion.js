@@ -1,4 +1,5 @@
- 
+    var nombre = prompt("porfavor escriba su nombre");
+    prompt("Hola "+ nombre + " mi nombre es Josnny, que Dios te bendiga mucho!!");
  
  function encriptar(){ 
      var texto = document.getElementById("id1").value.toLowerCase();

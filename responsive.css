@@ -2,8 +2,6 @@
  
 
     body{
-         
-        
         margin-top: 0px;
         padding: 0;
     }
@@ -13,11 +11,8 @@
     height: 915px;
     margin-left: 18px;
      
-     
-    
-    
-    
 }
+
 
 .box-3{
     padding-bottom: 30px;
@@ -26,10 +21,12 @@
 
 }
 
+
 .box-4{
     position: relative;
    bottom: 436px;
 }
+
 
 #btn1{
     width: 98px;
