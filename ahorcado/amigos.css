@@ -1,0 +1,22 @@
+
+#crear-palabra{
+    margin: 0 auto;
+    width: 500px;
+    padding: 100px;
+     
+    text-align: center;
+    font-size: 3em;
+}
+
+#form{
+    display: none;
+}
+
+#title2{
+    color: aliceblue;
+    display: none;
+}
+
+.label{
+    color: white;
+}

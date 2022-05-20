@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="juego.css">
+    <link rel="stylesheet" href="amigos.css">
+     
+     
+     
+    <title>juego ahorcado</title>
+</head>
+<body>
+   
+       
+    <header class="title">
+        <h1 class="cabecera">adivina la palabra</h1>
+    </header>
+
+    <main>
+        <div id="ocultar">
+        <div class="img">
+
+            <img id="img-ahorcado" src="img/img0.png" alt="Ahorcado">
+
+        </div>
+        <p id="resultado"> </p>
+
+        <div class="palabra-aleatoria">
+         <p id="span_vacio">
+             
+          
+        </p>
+        <div id="letras">
+        <button>A</button>
+        <button>E</button>
+        <button>I</button>
+        <button>O</button>
+        <button>U</button>
+        <button>P</button>
+        <button>R</button>
+        <button>M</button>
+        <button>L</button>
+        <button>H</button>
+        <button>T</button>
+        <button>J</button>
+        <button>S</button>
+        <button>C</button>
+        <button>W</button>
+        <button>N</button>
+        <button>B</button>
+        <button>Q</button>
+        <button>G</button>
+        <button>V</button>
+        <button>Y</button>
+        <button>X</button>
+        <button>Z</button>
+        <button>D</button>
+        <button>F</button>
+        <button>K</button>
+
+    </div>
+        </div>
+
+        <div class="buttons">
+            <button id="nuevo">Nuevo Juego</button> 
+            <button id="salir" class="btn-salir">Salir</button>
+            <button id="crear">crear juego</button>
+             
+        </div>
+          </div> 
+   
+
+            <!-- seccion de crear palabra -->
+        
+            <div id="crear-palabra">
+            <h1 id="title2">crear palabras nuevas</h1>
+  
+            <form id="form">
+                <label class="label">introduzca una palabra</label>
+                <input type="text" name="palabra" id="vacio" placeholder="palabra a adivinar">
+                <input id="guardar" type="submit" value="Guardar">
+            </form>
+        </div>
+         
+
+
+        <script src="script.js" type="module"></script>
+        <script src="funciones.js"></script>
+        <script src="amigos.js"></script>
+         
+         
+        
+    </main>
+
+   
+    
+</body>
+</html>

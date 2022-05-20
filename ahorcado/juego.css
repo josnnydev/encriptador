@@ -1,0 +1,139 @@
+body{
+    background: url(/img/fondo-ahorcado.png);
+    box-sizing: border-box;
+     
+    height: 610px;
+     
+     
+}
+
+ 
+
+
+ 
+
+main{
+    opacity: .7;
+    height: 550px;
+    
+    
+    
+}
+
+
+header{
+    
+    color: aliceblue;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 20px;
+
+}
+
+
+
+.palabra-aleatoria{
+     
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 50px;
+}
+
+.palabra-aleatoria p span{
+    display: inline-block;
+    width: 20px;
+    margin: 0 50px;
+    color: white;
+    font-size: 2.5em;
+    border-bottom: 2px solid red;
+    position: relative;
+    bottom: 300px;
+    left: 400px;
+    
+
+     
+    
+} 
+
+#letras{
+    
+    background-color: antiquewhite;
+     
+    position: relative;
+    bottom: 400px;
+    right: 410px;
+     
+     
+}
+.buttons{
+    background-color: black;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    bottom: 150PX;
+}
+
+button{
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 10px;
+    
+    
+}
+ 
+
+.img{
+    background-color: aqua;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#img-ahorcado{
+     
+    width: 300px;
+     
+}
+
+.btn-salir{
+    width: 200px;
+     
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transform: rotate(2deg);
+}
+
+ 
+
+#resultado{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+#ocultar{
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   body{
+    height: 1200px;
+    width: 100vh;
+   }
+
+  }
